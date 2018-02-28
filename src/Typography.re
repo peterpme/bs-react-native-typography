@@ -1,16 +1,16 @@
 type material = {
   .
-  "display4": BsReactNative.Style.styleElement,
-  "display3": BsReactNative.Style.styleElement,
-  "display2": BsReactNative.Style.styleElement,
-  "display1": BsReactNative.Style.styleElement,
-  "headline": BsReactNative.Style.styleElement,
-  "title": BsReactNative.Style.styleElement,
-  "subheading": BsReactNative.Style.styleElement,
-  "body2": BsReactNative.Style.styleElement,
-  "body1": BsReactNative.Style.styleElement,
-  "caption": BsReactNative.Style.styleElement,
-  "button": BsReactNative.Style.styleElement
+  "display4": BsReactNative.Style.t,
+  "display3": BsReactNative.Style.t,
+  "display2": BsReactNative.Style.t,
+  "display1": BsReactNative.Style.t,
+  "headline": BsReactNative.Style.t,
+  "title": BsReactNative.Style.t,
+  "subheading": BsReactNative.Style.t,
+  "body2": BsReactNative.Style.t,
+  "body1": BsReactNative.Style.t,
+  "caption": BsReactNative.Style.t,
+  "button": BsReactNative.Style.t
 };
 
 [@bs.module "react-native-typography"]
@@ -18,17 +18,17 @@ external material : material = "material";
 
 type materialDense = {
   .
-  "display4": BsReactNative.Style.styleElement,
-  "display3": BsReactNative.Style.styleElement,
-  "display2": BsReactNative.Style.styleElement,
-  "display1": BsReactNative.Style.styleElement,
-  "headline": BsReactNative.Style.styleElement,
-  "title": BsReactNative.Style.styleElement,
-  "subheading": BsReactNative.Style.styleElement,
-  "body2": BsReactNative.Style.styleElement,
-  "body1": BsReactNative.Style.styleElement,
-  "caption": BsReactNative.Style.styleElement,
-  "button": BsReactNative.Style.styleElement
+  "display4": BsReactNative.Style.t,
+  "display3": BsReactNative.Style.t,
+  "display2": BsReactNative.Style.t,
+  "display1": BsReactNative.Style.t,
+  "headline": BsReactNative.Style.t,
+  "title": BsReactNative.Style.t,
+  "subheading": BsReactNative.Style.t,
+  "body2": BsReactNative.Style.t,
+  "body1": BsReactNative.Style.t,
+  "caption": BsReactNative.Style.t,
+  "button": BsReactNative.Style.t
 };
 
 [@bs.module "react-native-typography"]
@@ -36,17 +36,17 @@ external materialDense : materialDense = "materialDense";
 
 type materialTall = {
   .
-  "display4": BsReactNative.Style.styleElement,
-  "display3": BsReactNative.Style.styleElement,
-  "display2": BsReactNative.Style.styleElement,
-  "display1": BsReactNative.Style.styleElement,
-  "headline": BsReactNative.Style.styleElement,
-  "title": BsReactNative.Style.styleElement,
-  "subheading": BsReactNative.Style.styleElement,
-  "body2": BsReactNative.Style.styleElement,
-  "body1": BsReactNative.Style.styleElement,
-  "caption": BsReactNative.Style.styleElement,
-  "button": BsReactNative.Style.styleElement
+  "display4": BsReactNative.Style.t,
+  "display3": BsReactNative.Style.t,
+  "display2": BsReactNative.Style.t,
+  "display1": BsReactNative.Style.t,
+  "headline": BsReactNative.Style.t,
+  "title": BsReactNative.Style.t,
+  "subheading": BsReactNative.Style.t,
+  "body2": BsReactNative.Style.t,
+  "body1": BsReactNative.Style.t,
+  "caption": BsReactNative.Style.t,
+  "button": BsReactNative.Style.t
 };
 
 [@bs.module "react-native-typography"]
@@ -54,34 +54,34 @@ external materialTall : materialTall = "materialTall";
 
 type human = {
   .
-  "largeTitle": BsReactNative.Style.styleElement,
-  "title1": BsReactNative.Style.styleElement,
-  "title2": BsReactNative.Style.styleElement,
-  "title3": BsReactNative.Style.styleElement,
-  "headline": BsReactNative.Style.styleElement,
-  "body": BsReactNative.Style.styleElement,
-  "callout": BsReactNative.Style.styleElement,
-  "subhead": BsReactNative.Style.styleElement,
-  "footnote": BsReactNative.Style.styleElement,
-  "caption1": BsReactNative.Style.styleElement,
-  "caption2": BsReactNative.Style.styleElement
+  "largeTitle": BsReactNative.Style.t,
+  "title1": BsReactNative.Style.t,
+  "title2": BsReactNative.Style.t,
+  "title3": BsReactNative.Style.t,
+  "headline": BsReactNative.Style.t,
+  "body": BsReactNative.Style.t,
+  "callout": BsReactNative.Style.t,
+  "subhead": BsReactNative.Style.t,
+  "footnote": BsReactNative.Style.t,
+  "caption1": BsReactNative.Style.t,
+  "caption2": BsReactNative.Style.t
 };
 
 [@bs.module "react-native-typography"] external human : human = "human";
 
 type humanDense = {
   .
-  "largeTitle": BsReactNative.Style.styleElement,
-  "title1": BsReactNative.Style.styleElement,
-  "title2": BsReactNative.Style.styleElement,
-  "title3": BsReactNative.Style.styleElement,
-  "headline": BsReactNative.Style.styleElement,
-  "body": BsReactNative.Style.styleElement,
-  "callout": BsReactNative.Style.styleElement,
-  "subhead": BsReactNative.Style.styleElement,
-  "footnote": BsReactNative.Style.styleElement,
-  "caption1": BsReactNative.Style.styleElement,
-  "caption2": BsReactNative.Style.styleElement
+  "largeTitle": BsReactNative.Style.t,
+  "title1": BsReactNative.Style.t,
+  "title2": BsReactNative.Style.t,
+  "title3": BsReactNative.Style.t,
+  "headline": BsReactNative.Style.t,
+  "body": BsReactNative.Style.t,
+  "callout": BsReactNative.Style.t,
+  "subhead": BsReactNative.Style.t,
+  "footnote": BsReactNative.Style.t,
+  "caption1": BsReactNative.Style.t,
+  "caption2": BsReactNative.Style.t
 };
 
 [@bs.module "react-native-typography"]
@@ -89,17 +89,17 @@ external humanDense : humanDense = "humanDense";
 
 type humanTall = {
   .
-  "largeTitle": BsReactNative.Style.styleElement,
-  "title1": BsReactNative.Style.styleElement,
-  "title2": BsReactNative.Style.styleElement,
-  "title3": BsReactNative.Style.styleElement,
-  "headline": BsReactNative.Style.styleElement,
-  "body": BsReactNative.Style.styleElement,
-  "callout": BsReactNative.Style.styleElement,
-  "subhead": BsReactNative.Style.styleElement,
-  "footnote": BsReactNative.Style.styleElement,
-  "caption1": BsReactNative.Style.styleElement,
-  "caption2": BsReactNative.Style.styleElement
+  "largeTitle": BsReactNative.Style.t,
+  "title1": BsReactNative.Style.t,
+  "title2": BsReactNative.Style.t,
+  "title3": BsReactNative.Style.t,
+  "headline": BsReactNative.Style.t,
+  "body": BsReactNative.Style.t,
+  "callout": BsReactNative.Style.t,
+  "subhead": BsReactNative.Style.t,
+  "footnote": BsReactNative.Style.t,
+  "caption1": BsReactNative.Style.t,
+  "caption2": BsReactNative.Style.t
 };
 
 [@bs.module "react-native-typography"]
@@ -107,19 +107,19 @@ external humanTall : humanTall = "humanTall";
 
 type iOSUIKit = {
   .
-  "largeTitleEmphasized": BsReactNative.Style.styleElement,
-  "title3": BsReactNative.Style.styleElement,
-  "title3Emphasized": BsReactNative.Style.styleElement,
-  "body": BsReactNative.Style.styleElement,
-  "bodyEmphasized": BsReactNative.Style.styleElement,
-  "subhead": BsReactNative.Style.styleElement,
-  "subheadShort": BsReactNative.Style.styleElement,
-  "subheadEmphasized": BsReactNative.Style.styleElement,
-  "callout": BsReactNative.Style.styleElement,
-  "footnote": BsReactNative.Style.styleElement,
-  "footnoteEmphasized": BsReactNative.Style.styleElement,
-  "caption2": BsReactNative.Style.styleElement,
-  "caption2Emphasized": BsReactNative.Style.styleElement
+  "largeTitleEmphasized": BsReactNative.Style.t,
+  "title3": BsReactNative.Style.t,
+  "title3Emphasized": BsReactNative.Style.t,
+  "body": BsReactNative.Style.t,
+  "bodyEmphasized": BsReactNative.Style.t,
+  "subhead": BsReactNative.Style.t,
+  "subheadShort": BsReactNative.Style.t,
+  "subheadEmphasized": BsReactNative.Style.t,
+  "callout": BsReactNative.Style.t,
+  "footnote": BsReactNative.Style.t,
+  "footnoteEmphasized": BsReactNative.Style.t,
+  "caption2": BsReactNative.Style.t,
+  "caption2Emphasized": BsReactNative.Style.t
 };
 
 [@bs.module "react-native-typography"]
@@ -127,19 +127,19 @@ external iOSUIKit : iOSUIKit = "iOSUIKit";
 
 type iOSUIKitDense = {
   .
-  "largeTitleEmphasized": BsReactNative.Style.styleElement,
-  "title3": BsReactNative.Style.styleElement,
-  "title3Emphasized": BsReactNative.Style.styleElement,
-  "body": BsReactNative.Style.styleElement,
-  "bodyEmphasized": BsReactNative.Style.styleElement,
-  "subhead": BsReactNative.Style.styleElement,
-  "subheadShort": BsReactNative.Style.styleElement,
-  "subheadEmphasized": BsReactNative.Style.styleElement,
-  "callout": BsReactNative.Style.styleElement,
-  "footnote": BsReactNative.Style.styleElement,
-  "footnoteEmphasized": BsReactNative.Style.styleElement,
-  "caption2": BsReactNative.Style.styleElement,
-  "caption2Emphasized": BsReactNative.Style.styleElement
+  "largeTitleEmphasized": BsReactNative.Style.t,
+  "title3": BsReactNative.Style.t,
+  "title3Emphasized": BsReactNative.Style.t,
+  "body": BsReactNative.Style.t,
+  "bodyEmphasized": BsReactNative.Style.t,
+  "subhead": BsReactNative.Style.t,
+  "subheadShort": BsReactNative.Style.t,
+  "subheadEmphasized": BsReactNative.Style.t,
+  "callout": BsReactNative.Style.t,
+  "footnote": BsReactNative.Style.t,
+  "footnoteEmphasized": BsReactNative.Style.t,
+  "caption2": BsReactNative.Style.t,
+  "caption2Emphasized": BsReactNative.Style.t
 };
 
 [@bs.module "react-native-typography"]
@@ -147,19 +147,19 @@ external iOSUIKitDense : iOSUIKitDense = "iOSUIKitDense";
 
 type iOSUIKitTall = {
   .
-  "largeTitleEmphasized": BsReactNative.Style.styleElement,
-  "title3": BsReactNative.Style.styleElement,
-  "title3Emphasized": BsReactNative.Style.styleElement,
-  "body": BsReactNative.Style.styleElement,
-  "bodyEmphasized": BsReactNative.Style.styleElement,
-  "subhead": BsReactNative.Style.styleElement,
-  "subheadShort": BsReactNative.Style.styleElement,
-  "subheadEmphasized": BsReactNative.Style.styleElement,
-  "callout": BsReactNative.Style.styleElement,
-  "footnote": BsReactNative.Style.styleElement,
-  "footnoteEmphasized": BsReactNative.Style.styleElement,
-  "caption2": BsReactNative.Style.styleElement,
-  "caption2Emphasized": BsReactNative.Style.styleElement
+  "largeTitleEmphasized": BsReactNative.Style.t,
+  "title3": BsReactNative.Style.t,
+  "title3Emphasized": BsReactNative.Style.t,
+  "body": BsReactNative.Style.t,
+  "bodyEmphasized": BsReactNative.Style.t,
+  "subhead": BsReactNative.Style.t,
+  "subheadShort": BsReactNative.Style.t,
+  "subheadEmphasized": BsReactNative.Style.t,
+  "callout": BsReactNative.Style.t,
+  "footnote": BsReactNative.Style.t,
+  "footnoteEmphasized": BsReactNative.Style.t,
+  "caption2": BsReactNative.Style.t,
+  "caption2Emphasized": BsReactNative.Style.t
 };
 
 [@bs.module "react-native-typography"]
