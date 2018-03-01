@@ -1,10 +1,8 @@
 {
-  "name": "bs-express",
-  "bsc-flags": [
-    "-bs-super-errors"
-  ],
-  "sources": [
-    "src"
-  ],
+  "name": "bs-react-native-typography",
+  "bsc-flags": [ "-bs-super-errors" ],
+  "sources": [{
+    "dir": "src"
+  }],
   "refmt": 3
 }
